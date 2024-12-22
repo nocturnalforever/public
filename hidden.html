@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOCTURNAL - Next Event</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: #282828;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 500px;
+            margin: 20px;
+        }
+
+        .header {
+            width: 100%;
+            padding: 10px 20px;
+            background: #1a1a1a;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .brand-name img {
+            height: 40px;
+        }
+
+        .event-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .event-details {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #ff0055;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #cc0044;
+        }
+
+        .logo-writing {
+            width: 80%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .home-badge{
+            width: 4em;
+            height: 4em;
+        }
+
+        @media (max-width: 768px) {
+            .event-title {
+                font-size: 1.5em;
+            }
+
+            .btn {
+                font-size: 0.9em;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="brand-name">
+            <a href="./index.html"><img src="icons/Noc-icon.png" alt="NOCTURNAL Icon" class="home-badge"></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <img src="./Images/Nocturnal_Overlay-removebg-preview.png" alt="NOCTURNAL Logo" class="logo-writing">
+        <div class="event-title">NOCTURNAL: NEW YEAR'S EVE</div>
+        <div class="event-details">
+            <p>Date: Tuesday, December 31st, 2024</p>
+            <p>Time: 20:00 PM - 4:00 AM</p>
+            <p>Location: 95 Hilton Rd, Linbro Park AH, Sandton, 2090</p>
+            <br>
+            <p>USE CODE: FOREVERNOCTURNAL</p>
+        </div>
+        <a href="https://www.howler.co.za/events/nocturnal-6655" class="btn" target="_blank">Get Your Tickets</a>
+    </div>
+</body>
+
+</html>
